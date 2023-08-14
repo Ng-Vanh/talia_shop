@@ -1,6 +1,12 @@
+.application{
+    position: relative;
+}
+
 .heading{
 
 }
+
+
 .navbar{
     background: linear-gradient(
         90deg,
@@ -10,11 +16,12 @@
     );
     border-bottom: 1px solid var(--primary-color);
     padding: 8px 0;
-    height: 88px;
+    height: 80px;
     position: fixed;
-    top: 0;
+    top: 0px;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 .navbar__logo a{
     display: flex;
@@ -23,7 +30,7 @@
 .navbar__logo-img{
     height: 60px;
     width: 60px;
-    margin-left: 60px;
+    margin-left: 40px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -124,11 +131,61 @@
     font-size: 1.8rem;    
 }
 .navbar__phone i{
-    padding: 0 8px;
+    padding: 0 4px;
     font-size: 2rem;
     color: var(--primary-color);
 }
 .menu_MBTL i{
     font-size: 3.2rem;
-    padding-left: 2.2rem;
+    margin-right: 2px;
+}
+
+.hero{
+    margin-top: 70px;
+    height:calc(100vh);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero__heading{
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f44606;
+    margin-left: 10vw;
+    padding: 0px;
+    text-shadow: 0px 2px 4px yellow;
+}
+.hero__heading:first-child{
+    margin-top: 15vh;
+}
+
+.hero__content{
+    font-size: 2.4rem;
+    line-height: 3rem;
+    color: var(--primary-color);
+    margin-top: 8vh;
+    margin-left: 10vw;
+    margin-bottom: 5vh;
+    display: block;
+    width: 35%;
+}
+.contact-us{
+    margin-left: 10vw;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+    border-radius: 24px;
+    padding: 6px 20px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--primary-color);
+    transition: background-color linear 0.2s;
+}
+.contact-us:hover{
+    background-color: orange;
+}
+.contact-us-link{
+    color: white;
 }
