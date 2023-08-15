@@ -1,5 +1,5 @@
 :root{
-    --primary-color: #003d29;
+    --primary-color: rgb(0, 61, 41);
 }
 
 *{
@@ -23,4 +23,18 @@ li{
 }
 a{
     text-decoration: none;
+}
+
+.line{
+    margin: 32px 0 32px 0;
+}
+
+/* Animated */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
