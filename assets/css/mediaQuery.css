@@ -56,11 +56,14 @@
   .menu_MBTL-item a{
     padding-right: 100px;
 }
+.navbar__phone{
+
+}
 .navbar__phone i{
-  font-size: 2.8rem;
+  font-size: 3.2rem;
 }
 .navbar__phone span{
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   font-weight: 600;
   font-style: italic;
   text-shadow: 1px 0 1px white;
@@ -111,13 +114,36 @@
   .hide-sm-PC{
     display: none;
   }
-  
+  .navbar__logo-img{
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar__logo-name{
+    font-size: 2.8rem;
+    line-height: 5.6rem;
+  }
+  .navbar__menu-list{
+
+  }
+  .navbar__menu-item{
+    padding: 0;
+  }
+  .navbar__menu-item-link{
+    font-size: 2.2rem;
+    list-style: 2.8rem;
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 1px 0 2px white;
+  }
+
+
 
 
 }
 
 /* PC large monitor */
 
-@media (max-width:1200px){
+@media (min-width:1200px){
 
 }
