@@ -482,3 +482,38 @@
     color: #666;
     text-decoration: line-through;
 }
+
+
+/* DRESS */
+#dress{
+    margin-top: 85px;
+    padding-bottom: 40px;
+}
+.dress-header{
+
+}
+
+.dress-header h1{
+    font-size: 4.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #073567;
+    font-style: italic;
+}
+
+.dress-header hr{
+    margin: 16px 0;
+}
+
+
+
+
+.rcm__item-img.dress__item-img{
+    height: 350px;
+}
+
+.dress-item{
+
+}
+.rcm__item-img-btn.dress-btn{
+    bottom: 6%;
+}

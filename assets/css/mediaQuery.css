@@ -26,8 +26,12 @@
     }
    
     .category__item{
-      height: 60vh;
+      height: 75vh;
     }
+
+    .rcm__item-img.dress__item-img{
+      height: 300px;
+  }
 }
 
 
@@ -96,6 +100,13 @@
   }
   .category-content h3{
     font-size: 2.2rem;
+  }
+  .dress-item{
+    flex-wrap: nowrap; 
+    overflow-x: auto;
+  }
+  .dress-item::-webkit-scrollbar{
+    display: none;
   }
 }
 /* All PC */

@@ -38,3 +38,41 @@ a{
         opacity: 1;
     }
 }
+
+/* Move BTN */
+
+
+.move__btn{
+    display: none;
+}
+.move__btn-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.move__btn-item{
+    display: flex;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+.move__btn-item:first-child{
+    margin-right: 8px;
+}
+.move__btn-item:last-child{
+    margin-left: 8px;
+}
+
+.move__btn-item:hover{
+    cursor: pointer;
+    background-color: rgb(231, 73, 0);
+}
+
+.move__btn-item i{
+    font-size: 3.2rem;
+    color: whitesmoke;
+}
